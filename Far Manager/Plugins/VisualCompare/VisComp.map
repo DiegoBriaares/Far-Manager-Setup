@@ -1,0 +1,114 @@
+
+ Start         Length     Name                   Class
+ 0001:00000000 000272E4H .text                   CODE
+ 0002:00000000 00000A98H .data                   DATA
+ 0002:00000A98 0000056DH .bss                    BSS
+
+
+Detailed map of segments
+
+ 0001:00000000 00002B66 C=CODE     S=.text    G=(none)   M=System   ACBP=A9
+ 0001:00002B68 000001A0 C=CODE     S=.text    G=(none)   M=SysInit  ACBP=A9
+ 0001:00002D08 00000038 C=CODE     S=.text    G=(none)   M=MixTypes ACBP=A9
+ 0001:00002D40 000001F8 C=CODE     S=.text    G=(none)   M=Windows  ACBP=A9
+ 0001:00002F38 000000C0 C=CODE     S=.text    G=(none)   M=MixConsts ACBP=A9
+ 0001:00002FF8 00001921 C=CODE     S=.text    G=(none)   M=MixFormat ACBP=A9
+ 0001:0000491C 000007FC C=CODE     S=.text    G=(none)   M=MixDebug ACBP=A9
+ 0001:00005118 00001388 C=CODE     S=.text    G=(none)   M=MixUtils ACBP=A9
+ 0001:000064A0 0000037B C=CODE     S=.text    G=(none)   M=MixErrors ACBP=A9
+ 0001:0000681C 00001AF4 C=CODE     S=.text    G=(none)   M=MixMemCheck ACBP=A9
+ 0001:00008310 00000673 C=CODE     S=.text    G=(none)   M=MixCheck ACBP=A9
+ 0001:00008984 00001D80 C=CODE     S=.text    G=(none)   M=MixStrings ACBP=A9
+ 0001:0000A704 00001D1C C=CODE     S=.text    G=(none)   M=MixClasses ACBP=A9
+ 0001:0000C420 00000058 C=CODE     S=.text    G=(none)   M=Far_Api  ACBP=A9
+ 0001:0000C478 00000038 C=CODE     S=.text    G=(none)   M=FarConMan ACBP=A9
+ 0001:0000C4B0 00001D5C C=CODE     S=.text    G=(none)   M=FarCtrl  ACBP=A9
+ 0001:0000E20C 00000B04 C=CODE     S=.text    G=(none)   M=FarPlug  ACBP=A9
+ 0001:0000ED10 00000038 C=CODE     S=.text    G=(none)   M=Messages ACBP=A9
+ 0001:0000ED48 00000038 C=CODE     S=.text    G=(none)   M=ActiveX  ACBP=A9
+ 0001:0000ED80 00000040 C=CODE     S=.text    G=(none)   M=ShellAPI ACBP=A9
+ 0001:0000EDC0 00000314 C=CODE     S=.text    G=(none)   M=MixWinUtils ACBP=A9
+ 0001:0000F0D4 00000380 C=CODE     S=.text    G=(none)   M=FarMenu  ACBP=A9
+ 0001:0000F454 000005C0 C=CODE     S=.text    G=(none)   M=FarConfig ACBP=A9
+ 0001:0000FA14 00000038 C=CODE     S=.text    G=(none)   M=ShlObj   ACBP=A9
+ 0001:0000FA4C 00000040 C=CODE     S=.text    G=(none)   M=CommDlg  ACBP=A9
+ 0001:0000FA8C 00000DA8 C=CODE     S=.text    G=(none)   M=FarDlg   ACBP=A9
+ 0001:00010834 00001468 C=CODE     S=.text    G=(none)   M=FarColorDlg ACBP=A9
+ 0001:00011C9C 000013B3 C=CODE     S=.text    G=(none)   M=VisCompCtrl ACBP=A9
+ 0001:00013050 00000094 C=CODE     S=.text    G=(none)   M=MixCrc   ACBP=A9
+ 0001:000130E4 000005D4 C=CODE     S=.text    G=(none)   M=FarMatch ACBP=A9
+ 0001:000136B8 00002C6C C=CODE     S=.text    G=(none)   M=VisCompTexts ACBP=A9
+ 0001:00016324 000030F4 C=CODE     S=.text    G=(none)   M=VisCompFiles ACBP=A9
+ 0001:00019418 00000CA0 C=CODE     S=.text    G=(none)   M=VisCompPromptDlg ACBP=A9
+ 0001:0001A0B8 00002268 C=CODE     S=.text    G=(none)   M=FarGrid  ACBP=A9
+ 0001:0001C320 00000038 C=CODE     S=.text    G=(none)   M=FarListDlg ACBP=A9
+ 0001:0001C358 00000038 C=CODE     S=.text    G=(none)   M=VisCompOpers ACBP=A9
+ 0001:0001C390 00001434 C=CODE     S=.text    G=(none)   M=FarEdit  ACBP=A9
+ 0001:0001D7C4 000005A4 C=CODE     S=.text    G=(none)   M=FarDraw  ACBP=A9
+ 0001:0001DD68 00003908 C=CODE     S=.text    G=(none)   M=VisCompTextsDlg ACBP=A9
+ 0001:00021670 00004D48 C=CODE     S=.text    G=(none)   M=VisCompFilesDlg ACBP=A9
+ 0001:000263B8 000005C4 C=CODE     S=.text    G=(none)   M=VisCompOptionsDlg ACBP=A9
+ 0001:0002697C 000007AC C=CODE     S=.text    G=(none)   M=VisCompMain ACBP=A9
+ 0001:00027128 000001B9 C=CODE     S=.text    G=(none)   M=VisComp  ACBP=A9
+ 0002:00000000 00000028 C=DATA     S=.data    G=DGROUP   M=System   ACBP=A9
+ 0002:00000028 00000028 C=DATA     S=.data    G=DGROUP   M=SysInit  ACBP=A9
+ 0002:00000050 00000030 C=DATA     S=.data    G=DGROUP   M=MixFormat ACBP=A9
+ 0002:00000080 00000014 C=DATA     S=.data    G=DGROUP   M=MixDebug ACBP=A9
+ 0002:00000094 00000050 C=DATA     S=.data    G=DGROUP   M=MixUtils ACBP=A9
+ 0002:000000E4 0000004C C=DATA     S=.data    G=DGROUP   M=MixMemCheck ACBP=A9
+ 0002:00000130 00000020 C=DATA     S=.data    G=DGROUP   M=MixCheck ACBP=A9
+ 0002:00000150 00000200 C=DATA     S=.data    G=DGROUP   M=MixStrings ACBP=A9
+ 0002:00000350 00000050 C=DATA     S=.data    G=DGROUP   M=FarColorDlg ACBP=A9
+ 0002:000003A0 00000129 C=DATA     S=.data    G=DGROUP   M=VisCompCtrl ACBP=A9
+ 0002:000004CC 00000400 C=DATA     S=.data    G=DGROUP   M=MixCrc   ACBP=A9
+ 0002:000008CC 00000004 C=DATA     S=.data    G=DGROUP   M=VisCompTextsDlg ACBP=A9
+ 0002:00001000 000000C0 C=BSS      S=.bss     G=DGROUP   M=System   ACBP=A9
+ 0002:000010C0 0000001C C=BSS      S=.bss     G=DGROUP   M=SysInit  ACBP=A9
+ 0002:000010DC 00000004 C=BSS      S=.bss     G=DGROUP   M=MixTypes ACBP=A9
+ 0002:000010E0 00000004 C=BSS      S=.bss     G=DGROUP   M=Windows  ACBP=A9
+ 0002:000010E4 00000004 C=BSS      S=.bss     G=DGROUP   M=MixConsts ACBP=A9
+ 0002:000010E8 00000004 C=BSS      S=.bss     G=DGROUP   M=MixFormat ACBP=A9
+ 0002:000010EC 00000004 C=BSS      S=.bss     G=DGROUP   M=MixDebug ACBP=A9
+ 0002:000010F0 00000008 C=BSS      S=.bss     G=DGROUP   M=MixUtils ACBP=A9
+ 0002:000010F8 00000004 C=BSS      S=.bss     G=DGROUP   M=MixErrors ACBP=A9
+ 0002:000010FC 00000028 C=BSS      S=.bss     G=DGROUP   M=MixMemCheck ACBP=A9
+ 0002:00001124 00000004 C=BSS      S=.bss     G=DGROUP   M=MixCheck ACBP=A9
+ 0002:00001128 00000004 C=BSS      S=.bss     G=DGROUP   M=MixStrings ACBP=A9
+ 0002:0000112C 00000004 C=BSS      S=.bss     G=DGROUP   M=MixClasses ACBP=A9
+ 0002:00001130 00000004 C=BSS      S=.bss     G=DGROUP   M=Far_Api  ACBP=A9
+ 0002:00001134 00000004 C=BSS      S=.bss     G=DGROUP   M=FarConMan ACBP=A9
+ 0002:00001138 00000184 C=BSS      S=.bss     G=DGROUP   M=FarCtrl  ACBP=A9
+ 0002:000012BC 00000008 C=BSS      S=.bss     G=DGROUP   M=FarPlug  ACBP=A9
+ 0002:000012C4 00000004 C=BSS      S=.bss     G=DGROUP   M=Messages ACBP=A9
+ 0002:000012C8 00000004 C=BSS      S=.bss     G=DGROUP   M=ActiveX  ACBP=A9
+ 0002:000012CC 00000004 C=BSS      S=.bss     G=DGROUP   M=ShellAPI ACBP=A9
+ 0002:000012D0 00000004 C=BSS      S=.bss     G=DGROUP   M=MixWinUtils ACBP=A9
+ 0002:000012D4 00000004 C=BSS      S=.bss     G=DGROUP   M=FarMenu  ACBP=A9
+ 0002:000012D8 00000004 C=BSS      S=.bss     G=DGROUP   M=FarConfig ACBP=A9
+ 0002:000012DC 00000004 C=BSS      S=.bss     G=DGROUP   M=ShlObj   ACBP=A9
+ 0002:000012E0 00000004 C=BSS      S=.bss     G=DGROUP   M=CommDlg  ACBP=A9
+ 0002:000012E4 00000004 C=BSS      S=.bss     G=DGROUP   M=FarDlg   ACBP=A9
+ 0002:000012E8 00000048 C=BSS      S=.bss     G=DGROUP   M=FarColorDlg ACBP=A9
+ 0002:00001330 000001FC C=BSS      S=.bss     G=DGROUP   M=VisCompCtrl ACBP=A9
+ 0002:0000152C 00000004 C=BSS      S=.bss     G=DGROUP   M=MixCrc   ACBP=A9
+ 0002:00001530 00000004 C=BSS      S=.bss     G=DGROUP   M=FarMatch ACBP=A9
+ 0002:00001534 00000004 C=BSS      S=.bss     G=DGROUP   M=VisCompTexts ACBP=A9
+ 0002:00001538 0000000C C=BSS      S=.bss     G=DGROUP   M=VisCompFiles ACBP=A9
+ 0002:00001544 00000004 C=BSS      S=.bss     G=DGROUP   M=VisCompPromptDlg ACBP=A9
+ 0002:00001548 00000004 C=BSS      S=.bss     G=DGROUP   M=FarGrid  ACBP=A9
+ 0002:0000154C 00000004 C=BSS      S=.bss     G=DGROUP   M=FarListDlg ACBP=A9
+ 0002:00001550 00000004 C=BSS      S=.bss     G=DGROUP   M=VisCompOpers ACBP=A9
+ 0002:00001554 00000004 C=BSS      S=.bss     G=DGROUP   M=FarEdit  ACBP=A9
+ 0002:00001558 00000004 C=BSS      S=.bss     G=DGROUP   M=FarDraw  ACBP=A9
+ 0002:0000155C 00000004 C=BSS      S=.bss     G=DGROUP   M=VisCompTextsDlg ACBP=A9
+ 0002:00001560 00000004 C=BSS      S=.bss     G=DGROUP   M=VisCompFilesDlg ACBP=A9
+ 0002:00001564 00000004 C=BSS      S=.bss     G=DGROUP   M=VisCompOptionsDlg ACBP=A9
+ 0002:00001568 00000004 C=BSS      S=.bss     G=DGROUP   M=VisCompMain ACBP=A9
+
+Bound resource files
+
+VisCompW.res
+VisComp.drf
+
+
+Program entry point at 0001:000272B0
